@@ -1,0 +1,53 @@
+html {
+height: 100%;
+width: 100%;
+}
+body {
+text-align: center;
+height: 100%;
+width: 100%;
+padding-bottom: 80px;
+}
+.show-grid [class^=col-] {
+border: 1px solid black;
+}
+#headline {
+	padding: 20px;
+}
+#plusone, #plustwo, #plusthree {
+	padding: 5px;
+}
+#footer {
+position: fixed;
+bottom: 0;
+height: 80px;
+width: 100%;
+background-color: white;
+}
+
+/* mobile style */
+.icon{
+	display:inline;
+}
+.temperature{
+	display:inline;
+}
+.day{
+	display:inline-block;
+	width: 100px;
+	
+}
+
+/* desktop style */
+@media (min-width: 768px) {
+	.icon{
+		display: block;
+		margin: auto;
+	}
+	.temperature{
+		display: block;
+		margin: auto;
+	}
+	.day{
+	}
+}
